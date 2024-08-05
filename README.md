@@ -31,7 +31,7 @@ This project performs sentiment analysis on a Twitter dataset using a Naive Baye
 4. [Project Steps](#project-steps)
 5. [Visualizations and Insights](#visualizations-insights)
 6. [Key Insights](#key-insights)
-7. [Conclusion](#conclusion
+7. [Conclusion](#conclusion)
 8. [Author Information](#Author-Information)
 
 
