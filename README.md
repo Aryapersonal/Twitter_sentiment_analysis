@@ -32,7 +32,8 @@ This project performs sentiment analysis on a Twitter dataset using a Naive Baye
 5. [Visualizations and Insights](#visualizations-insights)
 6. [Key Insights](#key-insights)
 7. [Conclusion](#conclusion)
-8. [Author Information](#Author-Information)
+8. [Acknowledgments](#acknowledgments)
+9. [Author Information](#Author-Information)
 
 
 ## Installation
@@ -127,10 +128,13 @@ To run this project,  you will need google account connected to google colab ins
 ```
 accuracy = accuracy_score(y_test, y_pred)
 print(f'Accuracy: {accuracy}')
+print(classification_report(y_test, y_pred))
 ```
 
 ```
-             precision    recall  f1-score   support
+Accuracy: 0.45
+
+            precision    recall  f1-score   support
 
   Irrelevant       0.43      0.27      0.33        37
     Negative       0.48      0.62      0.54        52
@@ -166,6 +170,13 @@ weighted avg       0.47      0.45      0.44       200
 ## Conclusion
 
 The sentiment analysis project on the Twitter dataset yielded important insights and identified several valuable insights for improvement. 
+
+## Acknowledgments
+Thanks to the contributors of the libraries used in this project: Pandas, NumPy, Matplotlib, and Seaborn.
+
+Thanks to the creators of the Twitter  dataset for providing the data used in this analysis.
+
+Special thanks to the Prodigy Infotech to provide me this opportunity to showcase my skills in Data loading & preprocessing ,train_test_split data ,sentiment analysis Train models like classification report , accuracy score , Visualize Confusion matrix &  Sentiment distribution and forming meaningul insights.
 
 ### Author : ARYA S
 ### LinkedIn :  www.linkedin.com/in/arya-dataanalyst
